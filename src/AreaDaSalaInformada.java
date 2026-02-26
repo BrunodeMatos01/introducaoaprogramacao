@@ -12,5 +12,7 @@ public class AreaDaSalaInformada {
 
         float area = frente * lateral;
         System.out.println("A area é "+ area);
+
+        teclado.close();
     }
 }
