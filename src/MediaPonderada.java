@@ -35,8 +35,8 @@ public class MediaPonderada {
         System.out.println("Digita a nota da exercicioUnidade7 ");
         exercicioUnidade7 = sc.nextFloat();
 
-        float MediaAritmetrica = ((exercicioUnidade1 + exercicioUnidade2 + exercicioUnidade3 + exercicioUnidade4 + exercicioUnidade5 + exercicioUnidade6 + exercicioUnidade7) * 0.2f)/7;
-        float mediaPonderada = (prova1 * 0.2f) + (prova2 * 0.3f) + (projetoFinal * 0.3f)/3;
+        float MediaAritmetrica = ((exercicioUnidade1 + exercicioUnidade2 + exercicioUnidade3 + exercicioUnidade4 + exercicioUnidade5 + exercicioUnidade6 + exercicioUnidade7)/7) * 0.2f;
+        float mediaPonderada = ((prova1 * 0.2f + prova2 * 0.3f) + projetoFinal * 0.3f);
         float mediaFinal = (MediaAritmetrica + mediaPonderada);
 
         System.out.println("Média é "+ mediaFinal);
