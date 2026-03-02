@@ -1,7 +1,9 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class MediaPonderada {
+public class Aredondamento {
     public static void main(String[] args) {
+
         float prova1 = 0;
         float prova2 = 0;
         float projetoFinal = 0;
@@ -35,14 +37,21 @@ public class MediaPonderada {
         System.out.println("Digita a nota da exercicioUnidade7 ");
         exercicioUnidade7 = sc.nextFloat();
 
-        float MediaAritmetrica = ((exercicioUnidade1 + exercicioUnidade2 + exercicioUnidade3 + exercicioUnidade4 + exercicioUnidade5 + exercicioUnidade6 + exercicioUnidade7)/7) * 0.2f;
+        float MediaAritmetrica = ((exercicioUnidade1 + exercicioUnidade2 + exercicioUnidade3 + exercicioUnidade4
+                + exercicioUnidade5 + exercicioUnidade6 + exercicioUnidade7) / 7) * 0.2f;
         float mediaPonderada = (prova1 * 0.2f + prova2 * 0.3f + projetoFinal * 0.3f);
         float mediaFinal = (MediaAritmetrica + mediaPonderada);
 
-        System.out.println("Média é "+ mediaFinal);
+        System.out.println("Média é " + mediaFinal);
 
-        
+        DecimalFormat df = new DecimalFormat("0");
+        System.out.println("Nota "+ df.format(mediaFinal));
+
+        System.out.printf("Nota %.2f%n", mediaFinal);
+        System.out.printf("Nota %.1f%n", mediaFinal);
+        System.out.printf("Nota %.0f", mediaFinal);
+
+        sc.close();
 
     }
-
 }
