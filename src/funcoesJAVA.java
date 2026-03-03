@@ -14,5 +14,7 @@ public class funcoesJAVA {
         double aleatorio = Math.random();
         double pi = Math.PI;
 
+        sc.close();
+
     }
 }

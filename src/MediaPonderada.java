@@ -42,7 +42,7 @@ public class MediaPonderada {
         System.out.println("Média é "+ mediaFinal);
 
         
-
+        sc.close();
     }
 
 }
