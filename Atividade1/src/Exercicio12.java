@@ -5,14 +5,21 @@ public class Exercicio12 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Informe o numero p1.1");
-        int numero1 = sc.nextInt();
+        double x1 = sc.nextDouble();
+
         System.out.println("Informe o numero p1.2");
-        int numero2 = sc.nextInt();
+        double y1 = sc.nextDouble();
+
         System.out.println("Informe o numero p2.1");
-        int numero3 = sc.nextInt();
+        double x2 = sc.nextDouble();
+
         System.out.println("Informe o numero p2.2");
-        int numero4 = sc.nextInt();
+        double y2 = sc.nextDouble();
 
+        double distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
+        System.out.printf("Distancia: %.4f\n", distancia);
+
+        sc.close();
     }
 }
