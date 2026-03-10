@@ -1,6 +1,4 @@
 package Unidade2;
-
-import java.util.Scanner;
  
 public class Calculadora {
        
@@ -19,6 +17,9 @@ public class Calculadora {
  
         resultado = somaDoisValores(numero2, numero1);
         System.out.println(resultado);
+ 
+        somaValores();
+        System.out.println(resultado);
     }
  
     public int somar(){
@@ -27,6 +28,10 @@ public class Calculadora {
  
     public int somaDoisValores(int num1, int num2){
         return num1 + num2;
+    }
+ 
+    public void somaValores(){
+        resultado = numero1 + numero2;
     }
  
     public static void main(String[] args) {
