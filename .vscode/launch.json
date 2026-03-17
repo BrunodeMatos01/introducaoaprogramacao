@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exercicio5",
+            "request": "launch",
+            "mainClass": "Unidade3.Exercicio5",
+            "projectName": "introducao_programacao_1e090801"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio4",
+            "request": "launch",
+            "mainClass": "Unidade3.Exercicio4",
+            "projectName": "introducao_programacao_1e090801"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
