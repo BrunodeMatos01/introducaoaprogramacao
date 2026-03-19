@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "aula1",
+            "request": "launch",
+            "mainClass": "Unidade4.aula1",
+            "projectName": "introducao_programacao_1e090801"
+        },
+        {
+            "type": "java",
             "name": "Exercicio5",
             "request": "launch",
             "mainClass": "Unidade3.Exercicio5",
