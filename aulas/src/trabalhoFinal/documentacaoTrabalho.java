@@ -232,7 +232,7 @@ public class documentacaoTrabalho {
     // Ele retorna um char, que sera V ou A.
     public char escolherCorJogador(Scanner sc) {
 
-        // Comeca com B apenas para ter um valor inicial.
+        // Comeca com B apenas para 4ter um valor inicial.
         // Depois sera trocado pela escolha do usuario.
         char cor = 'B';
 

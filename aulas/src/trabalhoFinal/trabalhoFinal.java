@@ -242,8 +242,8 @@ public class trabalhoFinal {
 
     public void imprimirTabuleiro(char[][] tabuleiro) {
         System.out.println();
-        System.out.println("       0   1   2   3   4   5   6");
-        System.out.println("     -----------------------------");
+        System.out.println("     0   1   2   3   4   5   6");
+        System.out.println("   -----------------------------");
 
         for (int linha = 0; linha < 6; linha++) {
             System.out.print(" " + linha + " | ");
@@ -253,7 +253,7 @@ public class trabalhoFinal {
             }
 
             System.out.println();
-            System.out.println("     -----------------------------");
+            System.out.println("   -----------------------------");
         }
     }
 
