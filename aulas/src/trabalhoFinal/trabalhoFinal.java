@@ -54,7 +54,7 @@ public class trabalhoFinal {
         System.out.println("O robo vai jogar com a cor " + corRobo);
 
         while (terminou == false) {
-            int linhaJogador = jogarPessoa(tabuleiro, sc, corJogador);
+            jogarPessoa(tabuleiro, sc, corJogador);
 
             if (verificarVitoria(tabuleiro, corJogador) == true) {
                 vitoriaJogador = true;
